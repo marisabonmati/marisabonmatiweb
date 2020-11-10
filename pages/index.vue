@@ -1,14 +1,36 @@
 <template>
   <div class="container">
+    <div class="">
+      <button type="button" class="btn btn-primary w-100 links links-left mb-5">
+        Primary
+      </button>
+      <button type="button" class="btn btn-primary w-100 links links-left my-5">
+        Primary
+      </button>
+      <button type="button" class="btn btn-primary w-100 links links-left mt-5">
+        Primary
+      </button>
+    </div>
     <div>
       <Marisaimg />
-      <h1 class="title">Marisa Bonmatí</h1>
+      <h1 class="title mt-4">María Isabel Bonmatí Mendoza</h1>
+    </div>
+    <div>
+      <button type="button" class="btn btn-primary w-100 links links-right mb-5">
+        Primary
+      </button>
+      <button type="button" class="btn btn-primary w-100 links links-right my-5">
+        Primary
+      </button>
+      <button type="button" class="btn btn-primary w-100 links links-right mt-5">
+        Primary
+      </button>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style>
@@ -27,24 +49,17 @@ export default {}
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: inline-block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 50px;
   color: #35495e;
   letter-spacing: 1px;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+.links {
+  animation: 3s appear;
 }
 
-.links {
-  padding-top: 15px;
-}
 </style>

@@ -1,13 +1,13 @@
 <template>
-    <img class="Marisaimg" src="../static/marisa.jpeg"/>
+    <img class="marisa-img" src="../static/marisa.jpeg"/>
 </template>
 
 <style>
-.Marisaimg {
-  animation: 3s appear;
+.marisa-img {
+  animation: 1s appear;
   margin: auto;
-  width: 35em;
-  padding-top: 5rem;
+  width: 30em;
+  padding-top: 2rem;
 }
 
 @keyframes appear {
