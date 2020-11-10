@@ -1,13 +1,14 @@
 <template>
-    <img class="marisa-img" src="../static/marisa.jpeg"/>
+    <img class="marisa-img" src="../static/marisa.jpeg" alt="Foto Marisa Bonmatí"/>
 </template>
 
 <style>
 .marisa-img {
   animation: 1s appear;
-  margin: auto;
+  display: block;
+  margin: 0 auto;
   width: 30em;
-  padding-top: 2rem;
+  padding: 2rem;
 }
 
 @keyframes appear {
