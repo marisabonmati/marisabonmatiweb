@@ -7,7 +7,7 @@
           type="button"
           class="btn btn-primary w-100 links links-left mb-5"
         >
-          <i class="fas fa-book-reader"></i>
+          <font-awesome-icon icon="user-secret" />Primary
         </button>
         <button
           type="button"
