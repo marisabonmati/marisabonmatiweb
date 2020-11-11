@@ -5,21 +5,21 @@
       <div>
         <button
           type="button"
-          class="btn btn-primary w-100 links links-left mb-5"
+          class="btn w-100 links mb-5"
         >
-          <font-awesome-icon icon="user-secret" />Primary
+          <font-awesome-icon class="icon-fontawesome fa-5x" icon="video" />
         </button>
         <button
           type="button"
-          class="btn btn-primary w-100 links links-left my-5"
+          class="btn w-100 links my-5"
         >
-          Primary
+          <font-awesome-icon class="icon-fontawesome fa-5x" icon="heart" />
         </button>
         <button
           type="button"
-          class="btn btn-primary w-100 links links-left mt-5"
+          class="btn w-100 links mt-5"
         >
-          Primary
+          <font-awesome-icon class="icon-fontawesome fa-5x" icon="at" />
         </button>
       </div>
       <div>
@@ -28,21 +28,21 @@
       <div>
         <button
           type="button"
-          class="btn btn-primary w-100 links links-right mb-5"
+          class="btn w-100 links mb-5"
         >
-          Primary
+          <font-awesome-icon class="icon-fontawesome fa-5x" icon="briefcase" />
         </button>
         <button
           type="button"
-          class="btn btn-primary w-100 links links-right my-5"
+          class="btn w-100 links my-5"
         >
-          Primary
+          <font-awesome-icon class="icon-fontawesome fa-5x" icon="graduation-cap" />
         </button>
         <button
           type="button"
-          class="btn btn-primary w-100 links links-right mt-5"
+          class="btn w-100 links mt-5"
         >
-          Primary
+          <font-awesome-icon class="icon-fontawesome fa-5x" icon="address-card" />
         </button>
       </div>
     </div>
@@ -69,6 +69,11 @@ export default {};
   text-align: center;
 }
 */
+
+.icon-fontawesome{
+  color: #5e0000;
+  
+}
 
 .title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
