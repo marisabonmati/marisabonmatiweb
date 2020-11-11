@@ -72,7 +72,10 @@ export default {};
 
 .icon-fontawesome{
   color: #5e0000;
-  
+}
+
+.icon-fontawesome:hover{
+  font-size: 7rem;
 }
 
 .title {
