@@ -1,7 +1,7 @@
 <template>
     <div>
 <nav class="navbar">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="index.vue">
           <img class="logo-mb" src="../static/logoMB.png" alt="logo Marisa Bonmatí"/>
   </a>
 </nav>
