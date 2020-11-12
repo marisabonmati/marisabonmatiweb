@@ -1,7 +1,6 @@
 <template>
   <div class="body">
     <div class="container">
-      <Navhome />
       <div class="d-flex align-items-center justify-content-center">
         <div>
           <a href="" class="btn w-100 links mb-5">
@@ -19,10 +18,12 @@
         </div>
         <div>
           <a href="work.vue" class="btn w-100 links mb-5">
+            <NuxtLink to="work.vue">
             <font-awesome-icon
               class="icon-fontawesome fa-5x"
               icon="briefcase"
             />
+            </NuxtLink>
           </a>
           <a href="" class="btn w-100 links my-5">
             <font-awesome-icon
@@ -39,7 +40,6 @@
         </div>
       </div>
     </div>
-    <Footer />
   </div>
 </template>
 
@@ -55,6 +55,7 @@ export default {};
 
 .icon-fontawesome {
   color: #5e0000;
+
 }
 
 .icon-fontawesome:hover {
@@ -63,5 +64,14 @@ export default {};
 
 .links {
   animation: 3s appear;
+  position: relative;
+}
+
+.links svg{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
 }
 </style>
