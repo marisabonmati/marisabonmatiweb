@@ -11,7 +11,7 @@
 <style>
 
 .body-footer{
-    background-color:#5e0000 ;
+    background-color:#5e00009a ;
 }
 
 .title {
@@ -20,7 +20,7 @@
   display: inline-block;
   font-weight: 300;
   font-size: 50px;
-  color: #e4dcdc9a;
+  color: rgb(216, 165, 36);
   letter-spacing: 1px;
 }
 </style>

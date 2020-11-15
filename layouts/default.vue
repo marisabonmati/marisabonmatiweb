@@ -1,9 +1,15 @@
 <template>
   <div>
-    <Navhome/>
+    <Navhome />
     <Nuxt />
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
 
+<style>
+body {
+  background-image: url("../static/background.jpg");
+  background-size: cover;
+}
+</style>
