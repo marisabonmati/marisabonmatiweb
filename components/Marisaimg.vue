@@ -1,5 +1,9 @@
 <template>
-    <img class="marisa-img" src="../static/marisa.jpeg" alt="Foto Marisa Bonmatí"/>
+    <img
+      class="marisa-img"
+      src="../static/marisa.jpeg"
+      alt="Foto Marisa Bonmatí"
+    />
 </template>
 
 <style>
@@ -9,6 +13,7 @@
   margin: 0 auto;
   width: 30em;
   padding: 2rem;
+  box-shadow: 0 0 15px #ddd;
 }
 
 @keyframes appear {

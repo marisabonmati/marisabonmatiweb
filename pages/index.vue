@@ -1,52 +1,47 @@
 <template>
-  <div class="container">
-    <Navhome />
-    <div class="d-flex align-items-center justify-content-center">
-      <div>
-        <button
-          type="button"
-          class="btn btn-primary w-100 links links-left mb-5"
-        >
-          <i class="fas fa-book-reader"></i>
-        </button>
-        <button
-          type="button"
-          class="btn btn-primary w-100 links links-left my-5"
-        >
-          Primary
-        </button>
-        <button
-          type="button"
-          class="btn btn-primary w-100 links links-left mt-5"
-        >
-          Primary
-        </button>
-      </div>
-      <div>
-        <Marisaimg />
-      </div>
-      <div>
-        <button
-          type="button"
-          class="btn btn-primary w-100 links links-right mb-5"
-        >
-          Primary
-        </button>
-        <button
-          type="button"
-          class="btn btn-primary w-100 links links-right my-5"
-        >
-          Primary
-        </button>
-        <button
-          type="button"
-          class="btn btn-primary w-100 links links-right mt-5"
-        >
-          Primary
-        </button>
+  <div class="grand-father d-flex">
+    <div class="father d-flex">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-center">
+          <div class="icons-group">
+            <a href="" class="btn w-100 links">
+              <font-awesome-icon class="icon-fontawesome icon-video fa-5x" icon="video" />
+            </a>
+            <a href="" class="btn w-100 links">
+              <font-awesome-icon class="icon-fontawesome fa-5x" icon="heart" />
+            </a>
+            <a href="" class="btn w-100 links">
+              <font-awesome-icon class="icon-fontawesome icon-at fa-5x" icon="at" />
+            </a>
+          </div>
+          <div>
+            <Marisaimg />
+          </div>
+          <div class="icons-group">
+            <a href="work.vue" class="btn w-100 links">
+              <NuxtLink to="work.vue">
+                <font-awesome-icon
+                  class="icon-fontawesome icon-briefcase fa-5x"
+                  icon="briefcase"
+                />
+              </NuxtLink>
+            </a>
+            <a href="" class="btn w-100 links">
+              <font-awesome-icon
+                class="icon-fontawesome fa-5x"
+                icon="graduation-cap"
+              />
+            </a>
+            <a href="" class="btn w-100 links">
+              <font-awesome-icon
+                class="icon-fontawesome icon-address fa-5x"
+                icon="address-card"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-    <h1 class="title mt-3 d-flex justify-content-center">María Isabel Bonmatí Mendoza</h1>
   </div>
 </template>
 
@@ -55,32 +50,45 @@ export default {};
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-
-.container {
-  margin: 0 auto;
+.grand-father {
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  flex-direction: column;
 }
-*/
+.father {
+  align-items: center;
+  flex: 1;
+}
 
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: inline-block;
-  font-weight: 300;
-  font-size: 50px;
+.icons-group {
+  flex: 1;
+}
+
+.icon-fontawesome {
   color: #5e0000;
-  letter-spacing: 1px;
+}
+
+.icon-fontawesome:hover {
+  font-size: 7rem;
+}
+
+.icon-video svg{
+  margin-bottom: 200px;
+}
+
+.icon-at{
+  margin-bottom: -200px;
 }
 
 .links {
   animation: 3s appear;
+  position: relative;
+}
+
+.links svg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
 }
 </style>
